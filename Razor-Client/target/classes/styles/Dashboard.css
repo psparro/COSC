@@ -126,19 +126,19 @@
     -fx-border-radius: 10; 
     -fx-background-radius: 10;
     -fx-font-weight: bold;
-    -fx-font: 20px harrington;
+    -fx-font: 20px vetica;
     -fx-padding: 10;
 }
 
 .label-receiver {
 
-    -fx-background-color: #00AF50;
+    -fx-background-color: #301D5B;
     -fx-text-fill: #FFFFFF;
     -fx-pref-width: 300px;
     -fx-border-radius: 10; 
     -fx-background-radius: 10;
     -fx-font-weight: bold;
-    -fx-font: 20px harrington;
+    -fx-font: 20px vetica;
     -fx-padding: 10;
 }
 
