@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/razor-javafx-chat-messenger.iml" filepath="$PROJECT_DIR$/.idea/razor-javafx-chat-messenger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/javafx-chat-messenger.iml" filepath="$PROJECT_DIR$/.idea/javafx-chat-messenger.iml" />
     </modules>
   </component>
 </project>

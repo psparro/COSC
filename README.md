@@ -1,1 +1,1 @@
-# razor-javafx-chat-messenger
+# javafx-chat-messenger
