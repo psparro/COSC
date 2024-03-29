@@ -20,12 +20,12 @@
                         <Insets bottom="5.0" />
                      </VBox.margin>
                   </Label>
-                  <Label styleClass="razorLabel" text="RAZOR">
+                  <Label styleClass="razorLabel" text="COSC-02">
                      <VBox.margin>
                         <Insets bottom="10.0" />
                      </VBox.margin>
                   </Label>
-                  <Label alignment="CENTER" prefHeight="42.0" prefWidth="286.0" text="Log in to share the moment of your life on the things that interest you" textAlignment="CENTER" wrapText="true" />
+                  <Label alignment="CENTER" prefHeight="42.0" prefWidth="286.0" text="Log in to connect with your work buddies." textAlignment="CENTER" wrapText="true" />
                </children>
                <VBox.margin>
                   <Insets bottom="20.0" />
@@ -51,8 +51,8 @@
             </GridPane>
             <HBox alignment="CENTER">
                <children>
-                  <Label text="Don't have an account?" />
-                  <Hyperlink onAction="#handleRegisterAction" styleClass="registerLabel" text="Sign Up Now" />
+                  <Label text="New Here?" />
+                  <Hyperlink onAction="#handleRegisterAction" styleClass="registerLabel" text="Sign Up to Get In" />
                </children>
             </HBox>
          </children>
@@ -64,10 +64,10 @@
                   <Insets bottom="20.0" />
                </VBox.margin>
                <image>
-                  <Image url="@../image/logo.png" />
+                  <Image url="@../image/Chatlogo.jpg" />
                </image>
             </ImageView>
-            <Label styleClass="razorLabel-invert" text="RAZOR" />
+            <Label styleClass="razorLabel-invert" text="COSC-02" />
             <Label fx:id="errorLabel" styleClass="erroLable" />
          </children>
       </VBox>

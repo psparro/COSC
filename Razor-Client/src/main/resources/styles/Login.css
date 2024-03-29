@@ -1,19 +1,20 @@
 .welcomeLabel {
 
     -fx-text-fill: #666666;
+    -fx-font-size: 20px;
 }
 
 .razorLabel {
 
-    -fx-text-fill: #BD5961;
-    -fx-font-family: "Verdana";
+    -fx-text-fill: #1B67F6;
+    -fx-font-family: "Times New Roman";
     -fx-font-size: 36px;
 }
 
 .razorLabel-invert {
 
-    -fx-text-fill: #F1F1F1;
-    -fx-font-family: "Verdana";
+    -fx-text-fill: #E4FAF9;
+    -fx-font-family: "Times New Roman";
     -fx-font-size: 36px;
 }
 
@@ -24,29 +25,30 @@
 
 .rightVbox {
 
-    -fx-background-color: #CA5A44;
+    -fx-background-color: #2F1A5B;
 }
 
 .login-button {
 
     -fx-border-radius: 5;
     -fx-border-width: 1;
-    -fx-text-fill: #F1F1F1;
+    -fx-text-fill: #EEF6F7;
     -fx-border-style: solid;
     -fx-border-color: #E82C23;
-    -fx-background-color: #E82C23;
+    -fx-background-color: #301D5B;
 }
 
 .login-button:hover {
 
-    -fx-border-color: #666666;
-    -fx-background-color: #666666;
+    -fx-border-color: #0C735B;
+    -fx-background-color: #0C735B;
 
 }
 
 .registerLabel {
 
     -fx-text-fill: #C17C77;
+    -fx-font-size: 15px;
 }
 
 .registerLabel:hover {
@@ -60,7 +62,7 @@
     -fx-background-repeat: no-repeat;
     -fx-background-position: right center;
     -fx-background-size: 8%;
-    -fx-font-family: "Courier New";
+    -fx-font-family: "Vertica";
     -fx-font-size: 14px;
 }
 
@@ -70,7 +72,7 @@
     -fx-background-repeat: no-repeat;
     -fx-background-position: right center;
     -fx-background-size: 8%;
-    -fx-font-family: "Courier New";
+    -fx-font-family: "Vertica";
     -fx-font-size: 14px;
 }
 

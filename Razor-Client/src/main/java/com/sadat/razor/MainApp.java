@@ -18,7 +18,7 @@ public class MainApp extends Application {
             Scene scene = new Scene(root);
             stage.setTitle("Login");
             stage.setScene(scene);
-            stage.getIcons().add(new Image("/image/logo.png"));
+            stage.getIcons().add(new Image("/image/Chatlogo.jpg"));
             stage.show();
         } catch (IOException ex) {
             System.out.println(ex.getMessage());
