@@ -20,12 +20,12 @@
                         <Insets bottom="5.0" />
                      </VBox.margin>
                   </Label>
-                  <Label styleClass="razorLabel" text="RAZOR">
+                  <Label styleClass="chat-messenger-label" text="COSC-02">
                      <VBox.margin>
                         <Insets bottom="10.0" />
                      </VBox.margin>
                   </Label>
-                  <Label alignment="CENTER" prefHeight="42.0" prefWidth="300.0" text="Register to share the moment of your life on the things that interest you" textAlignment="CENTER" wrapText="true" />
+                  <Label styleClass="register-text" alignment="CENTER" prefHeight="42.0" prefWidth="300.0" text="Register to share the moment of your life on the things that interest you" textAlignment="CENTER" wrapText="true" />
                </children>
                <VBox.margin>
                   <Insets bottom="20.0" />

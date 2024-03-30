@@ -597,7 +597,7 @@ public class DashboardController implements Initializable, StatusListener {
 
                 try {
 
-                    String path = "Razor-Client/src/main/resources/audio/arrival.mp3";
+                    String path = "Chat-messenger-Client/src/main/resources/audio/arrival.mp3";
                     Media media = new Media(new File(path).toURI().toURL().toString());
                     MediaPlayer mediaPlayer = new MediaPlayer(media);
                     mediaPlayer.setAutoPlay(true);
@@ -623,7 +623,7 @@ public class DashboardController implements Initializable, StatusListener {
 
                 try {
 
-                    String path = "Razor-Client/src/main/resources/audio/departure.mp3";
+                    String path = "Chat-messenger-Client/src/main/resources/audio/departure.mp3";
                     Media media = new Media(new File(path).toURI().toURL().toString());
                     MediaPlayer mediaPlayer = new MediaPlayer(media);
                     mediaPlayer.setAutoPlay(true);

@@ -4,14 +4,14 @@
     -fx-font-size: 20px;
 }
 
-.razorLabel {
+.chat-messenger-label {
 
-    -fx-text-fill: #1B67F6;
+    -fx-text-fill: #2F1A5B;
     -fx-font-family: "Times New Roman";
     -fx-font-size: 36px;
 }
 
-.razorLabel-invert {
+.chat-messenger-label-invert {
 
     -fx-text-fill: #E4FAF9;
     -fx-font-family: "Times New Roman";
@@ -35,7 +35,7 @@
     -fx-text-fill: #EEF6F7;
     -fx-border-style: solid;
     -fx-border-color: #E82C23;
-    -fx-background-color: #301D5B;
+    -fx-background-color: #2F1A5B;
 }
 
 .login-button:hover {

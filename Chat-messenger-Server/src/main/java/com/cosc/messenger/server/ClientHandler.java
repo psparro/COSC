@@ -1,9 +1,6 @@
 package com.cosc.messenger.server;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.OutputStream;
+import java.io.*;
 import java.net.Socket;
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -11,6 +8,8 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
+import java.util.Properties;
+
 import org.apache.commons.lang3.StringUtils;
 
 public class ClientHandler implements Runnable {
@@ -20,7 +19,27 @@ public class ClientHandler implements Runnable {
     private String user;
     private OutputStream os;
 
-    private final String database = "jdbc:mysql://localhost:3306/main?user=root&password=root";
+    private final String database = getDatabaseURL();
+
+
+    public String getDatabaseURL() {
+
+        InputStream input = ClientHandler.class.getClassLoader().getResourceAsStream("config.properties");// {
+
+            Properties prop = new Properties();
+
+            if (input == null) {
+                System.out.println("Sorry, unable to find config.properties");
+                return null;
+            }
+        try {
+            prop.load(input);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+        return prop.getProperty("db.url");
+    }
+
 
     private boolean checkCredentials(String username, String password) {
 

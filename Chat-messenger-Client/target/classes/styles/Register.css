@@ -1,25 +1,25 @@
 .welcomeLabel {
 
-    -fx-text-fill: #666666;
+    -fx-text-fill: #ffffff;
 }
 
-.razorLabel {
+.chat-messenger-label {
 
     -fx-text-fill: #BD5961;
     -fx-font-family: "Verdana";
     -fx-font-size: 36px;
 }
 
-.razorLabel-invert {
+.chat-messenger-label-invert {
 
-    -fx-text-fill: #2f3542;
+    -fx-text-fill: #ffffff;
     -fx-font-family: "Verdana";
     -fx-font-size: 36px;
 }
 
 .leftVbox {
 
-    -fx-background-color: #70a1ff;
+    -fx-background-color: #2F1A5B;
 }
 
 
@@ -63,4 +63,8 @@
     -fx-background-size: 8%;
     -fx-font-family: "Courier New";
     -fx-font-size: 14px;
+}
+
+.register-text {
+    -fx-text-fill: #ffffff;
 }

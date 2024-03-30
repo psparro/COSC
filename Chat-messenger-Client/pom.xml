@@ -7,16 +7,12 @@
     <version>2.0.0</version>
     <packaging>jar</packaging>
 
-    <name>Razor-Client</name>
+    <name>Chat-messenger-Client</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <mainClass>com.cosc.messenger.MainApp</mainClass>
     </properties>
-
-    <organization>
-        <name>Rafsanjani</name>
-    </organization>
 
     <build>
         <plugins>

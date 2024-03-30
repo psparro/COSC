@@ -10,15 +10,10 @@
         <module name="Chat-messenger-Client" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Chatbox-UI" target="1.7" />
-      <module name="Razor-Server" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="Chat-messenger-Client" options="-bootclasspath &quot;C:\Program Files\Java\jdk1.8.0_333\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_333\jre\classes;$PROJECT_DIR$/../../../../Program Files/Java/jdk1.8.0_333/jre/lib/jfxrt.jar&quot;" />
-      <module name="Chatbox-UI" options="-bootclasspath &quot;C:\Program Files\Java\jdk1.8.0_333\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_333\jre\classes;$PROJECT_DIR$/../../../../Program Files/Java/jdk1.8.0_333/jre/lib/jfxrt.jar&quot;" />
+      <module name="Chat-messenger-Client" options="-bootclasspath &quot;C:\Program Files (x86)\Java\jdk1.8.0_202\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_202\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.8.0_202\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.8.0_202\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_202\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_202\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_202\jre\classes;$PROJECT_DIR$/../../../../Program Files (x86)/Java/jdk1.8.0_202/jre/lib/jfxrt.jar&quot;" />
     </option>
   </component>
 </project>
